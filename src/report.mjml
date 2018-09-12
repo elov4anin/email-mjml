@@ -1,0 +1,69 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold"  font-size="16px" >Уважаемый Иван Иванович!</mj-text>
+
+          <!-- 1 начало -->
+        <mj-text font-size="14px">
+          Просим обратить внимание на то, что при импорте данных ГРП в Систему контроля исполнения проектов ряд ресурсов не был найден в базе данных сотрудников.
+        </mj-text>
+        <mj-text font-size="14px">Ниже приведен детальный отчет</mj-text>
+         <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+      
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">№</th>
+            <th style="padding: 0 5px;">Проект</th>
+            <th style="padding: 0 5px;">Файл ГРП</th>
+            <th style="padding: 0 5px;">Задача</th>
+            <th style="padding: 0 5px;">Ресурс</th>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 30px">1</td>
+            <td style="padding: 0 5px; width: 120px;">
+               <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>        
+            <td style="padding: 0 5px;  width: 120px">
+             <a href="\\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp" target="_blank" style="color: #0088D6">
+                \\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp
+              </a>
+            </td>
+            <td style="padding: 0 5px; width: 140px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+            </td>
+            <td style="padding: 0 5px;">           
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>    
+            <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 30px">2</td>
+            <td style="padding: 0 5px; width: 120px;">
+               <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>        
+            <td style="padding: 0 5px;  width: 120px">
+             <a href="\\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp" target="_blank" style="color: #0088D6">
+                \\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp
+              </a>
+            </td>
+            <td style="padding: 0 5px; width: 140px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+            </td>
+            <td style="padding: 0 5px;">           
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>         
+        </mj-table>      
+        <!-- 1 конец -->     
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

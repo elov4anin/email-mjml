@@ -1,0 +1,32 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold"  font-size="16px" >Уважаемый Иван Иванович!</mj-text>
+
+          <!-- 1 начало -->
+        <mj-text font-size="14px">
+          В проекте  <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a> присутствуют проблемы:.
+        </mj-text>
+    
+         <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+      
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">Дата</th>
+            <th style="padding: 0 5px;">АИ</th>           
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 90px">02.07.2018</td>
+            <td style="padding: 0 5px;">
+               текст актуальной информациитекст актуальной информациитекст актуальной информации текст актуальной информациитекст актуальной информации
+            </td>  
+          </tr>   
+        </mj-table>      
+        <!-- 1 конец -->     
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

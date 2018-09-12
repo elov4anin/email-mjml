@@ -1,25 +1,283 @@
 <mjml>
-    <mj-body>
-        <mj-section>
-            <mj-column>
-                <mj-table>
-                    <tr style="border-bottom:1px solid #ecedee;text-align:center;padding:15px 0;">
-                        <th style="padding: 0 15px 0 0;">Year</th>
-                        <th style="padding: 0 15px;">Language</th>
-                        <th style="padding: 0 0 0 15px;">Inspired from</th>
-                    </tr>
-                    <tr>
-                        <td style="padding: 0 15px 0 0;">1995</td>
-                        <td style="padding: 0 15px;">PHP</td>
-                        <td style="padding: 0 0 0 15px;">C, Shell Unix</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 0 15px 0 0;">1995</td>
-                        <td style="padding: 0 15px;">JavaScript</td>
-                        <td style="padding: 0 0 0 15px;">Scheme, Selfr</td>
-                    </tr>
-                </mj-table>
-            </mj-column>
-        </mj-section>
-    </mj-body>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold"  font-size="16px" >Уважаемый Иван Иванович!</mj-text>
+          <!-- 1 начало -->
+        <mj-text font-size="14px">Просим обратить внимание на то, что имеет место нарушение сроков выполнения работ по проектам:</mj-text>
+         <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-table>
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold;">Проект:</td>
+            <td style="padding: 0 15px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+               Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>
+        </tr>  
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+        </tr> 
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта на ПП:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+          </tr> 
+        </mj-table>
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">Задача</th>
+            <th style="padding: 0 5px;">Статус</th>
+            <th style="padding: 0 5px;">Срок исп.</th>
+            <th style="padding: 0 5px;">Дней просрочки.</th>
+            <th style="padding: 0 5px;">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+              Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+              </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">2</td>
+            <td style="padding: 0 5px;">
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+           <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+            </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">2</td>
+            <td style="padding: 0 5px;"> 
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+        </mj-table>
+
+        <mj-table>
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold;">Проект:</td>
+            <td style="padding: 0 15px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+               Проект 2 Проект 2 Проект 2
+              </a>
+            </td>
+        </tr>  
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+        </tr> 
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта на ПП:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+          </tr> 
+        </mj-table>
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">Задача</th>
+            <th style="padding: 0 5px;">Статус</th>
+            <th style="padding: 0 5px;">Срок исп.</th>
+            <th style="padding: 0 5px;">Дней просрочки.</th>
+            <th style="padding: 0 5px;">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+              Задача 2 Задача 2 Задача 2 Задача 2 Задача 2
+              </a>
+              </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">2</td>
+            <td style="padding: 0 5px;">
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>          
+        </mj-table>
+        <!-- 1 конец -->
+
+        <!-- 2 начало -->
+        <mj-spacer height="30px" />
+        <mj-text font-size="14px">Напоминаем о том, что в ближайшее время запланировано выполнения следующих задач:</mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-table>
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold;">Проект:</td>
+            <td style="padding: 0 15px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+               Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>
+        </tr>  
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+        </tr> 
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта на ПП:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+          </tr> 
+        </mj-table>
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">Задача</th>
+            <th style="padding: 0 5px;">Начало работ</th>
+            <th style="padding: 0 5px;">Срок исп.</th>
+            <th style="padding: 0 5px;">Дней до начала</th>
+            <th style="padding: 0 5px;">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+              Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+              </td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">0</td>
+            <td style="padding: 0 5px;">
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+           <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+            </td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;">2</td>
+            <td style="padding: 0 5px;"> 
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+        </mj-table>
+
+         <!-- 2 конец -->
+
+         <!-- 3 начало -->
+
+         <mj-spacer height="30px" />
+        <mj-text font-size="14px">Просим обратить внимание на то, что подходит срок завершения работ по следующим задачам:</mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-table>
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold;">Проект:</td>
+            <td style="padding: 0 15px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+               Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>
+        </tr>  
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+        </tr> 
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта на ПП:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+          </tr> 
+        </mj-table>
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;">Задача</th>
+            <th style="padding: 0 5px;">Статус</th>
+            <th style="padding: 0 5px;">Срок исп.</th>
+           
+            <th style="padding: 0 5px;">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+              Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+              </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>          
+            <td style="padding: 0 5px;">
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+           <tr style="border:1px solid #ecedee">
+            <td style="padding: 0 5px; width: 120px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Задача 1 Задача 1 Задача 1 Задача 1 Задача 1
+              </a>
+            </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+            <td style="padding: 0 5px;"> 
+              <mj-text><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+        </mj-table>
+
+         <!-- 3 конец -->
+
+        <!-- 4 начало -->
+
+        <mj-spacer height="30px" />
+        <mj-text font-size="14px">Просим обратить внимание на то, что в ходе реализации ряда проектов наблюдаются проблемы:</mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-table>
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold;">Проект:</td>
+            <td style="padding: 0 15px;">
+              <a href="http://10.72.100.86:8808/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+               Проект 1 Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1Проект 1
+              </a>
+            </td>
+        </tr>  
+          <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+        </tr> 
+        <tr>
+            <td style="padding: 0 15px 0 0; font-weight: bold">Менеджер проекта на ПП:</td>
+            <td style="padding: 0 15px;"><a href="http://10.72.100.86:8808/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></td>
+          </tr> 
+        </mj-table>
+
+        <mj-table>
+          <tr style="border:1px solid #ecedee;text-align:left;padding:15px 0;">           
+            <th style="padding: 0 5px;">Актуальная информация</th>
+            <th style="padding: 0 5px;">Статус</th>
+            <th style="padding: 0 5px;">Дата окончания</th>          
+          </tr>
+          <tr style="border:1px solid #ecedee">           
+            <td style="padding: 0 5px; ">
+                <mj-text>01.08.2018 </mj-text><br>
+                <mj-text>Текст АИ 1</mj-text>
+            </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td>
+          </tr>
+          <tr style="border:1px solid #ecedee">
+          
+            <td style="padding: 0 5px;">
+                <mj-text>01.08.2018 </mj-text><br>
+                <mj-text>Текст АИ 1</mj-text>
+            </td>
+            <td style="padding: 0 5px;">В работе</td>
+            <td style="padding: 0 5px;">02.07.2018</td> 
+          </tr>
+        </mj-table>
+
+        <!-- 4 конец -->
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
 </mjml>
