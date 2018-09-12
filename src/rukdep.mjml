@@ -1,0 +1,282 @@
+<mjml>
+ <mj-head>
+      <mj-attributes>
+        <mj-text color="#0563c1" font-size="11px" />
+        <mj-class name="th" padding="5px"/>
+        <mj-class name="big" font-size="14px" />
+        <mj-all font-family="Calibri, Arial, Helvetica, sans-serif;" font-size='11px'  color="#0563c1" />
+      </mj-attributes>
+    </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text  >Уважаемый Иванов Иван И.!</mj-text>
+          <!-- 1 начало -->
+        <mj-text >  В <a href="http://10.72.100.86:8800/" target="_blank" style="color: #0088D6">
+            Системe контроля исполнения проектов
+            </a>зафиксировано нарушение сроков выполнения работ по следующим проектам:</mj-text>
+
+        <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+        <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>    
+        <mj-text > Нарушение сроков выполнения задач:</mj-text>
+        <mj-table>
+          <tr style="text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px; border:1px solid black;">Наименование задачи</th>
+            <th style="padding: 0 5px; border:1px solid black;">Статус</th>
+            <th style="padding: 0 5px; border:1px solid black;">Окончание</th>
+            <th style="padding: 0 5px; border:1px solid black;">Просрочено, д.</th>
+            <th style="padding: 0 5px; border:1px solid black;">Исполнители</th>
+          </tr>
+          <tr >
+            <td style="padding: 0 5px; width: 150px;border:1px solid black;">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+              Подготовка, утверждение ТЗ на проработку
+              </a>
+              </td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">Запланирована</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">10.02.2017</td>
+            <td style="padding: 0 5px; border:1px solid black;color: red;text-align:center;width:80px; ">500</td>
+            <td style="padding: 0 5px;border:1px solid black;">
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">    Вафина Елена Н </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+           <tr >
+            <td style="padding: 0 5px; width: 150px;border:1px solid black;">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">В работе</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">02.07.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; width:80px;">2</td>
+            <td style="padding: 0 5px;border:1px solid black;"> 
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a></mj-text><br>
+            </td>            
+          </tr>
+        </mj-table>
+
+        <mj-text > Нарушение сроков контрольных точек:</mj-text>
+       
+        <mj-table>
+          <tr>
+            <th style="padding: 0 5px;border:1px solid black;">Наименование контрольной точки</th>
+            <th style="padding: 0 5px;border:1px solid black;">Окончание</th>
+            <th style="padding: 0 5px;border:1px solid black;">Просрочено, д.</th>
+         
+          </tr>
+          <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+              Получение заявки от Заказчика
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">10.02.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;color:red;width:80px;">134</td>
+                 
+          </tr>      
+           <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+             Завершение экспертизы
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">17.06.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; color:red;width:80px;">234</td>
+                 
+          </tr>  
+           <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+             Получение РУ
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">06.09.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; color:red;width:80px;">3</td>
+                 
+          </tr>      
+        </mj-table>
+        <!-- 1 конец -->
+
+        <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+        <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>    
+        <mj-text > Нарушение сроков выполнения задач:</mj-text>
+        <mj-table>
+          <tr style="text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px; border:1px solid black;">Наименование задачи</th>
+            <th style="padding: 0 5px; border:1px solid black;">Статус</th>
+            <th style="padding: 0 5px; border:1px solid black;">Окончание</th>
+            <th style="padding: 0 5px; border:1px solid black;">Просрочено, д.</th>
+            <th style="padding: 0 5px; border:1px solid black;">Исполнители</th>
+          </tr>
+          <tr >
+            <td style="padding: 0 5px; width: 150px;border:1px solid black;">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+              Подготовка, утверждение ТЗ на проработку
+              </a>
+              </td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">Запланирована</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">10.02.2017</td>
+            <td style="padding: 0 5px; border:1px solid black;color: red;text-align:center;width:80px; ">500</td>
+            <td style="padding: 0 5px;border:1px solid black;">
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">    Вафина Елена Н </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+            </td>            
+          </tr>
+           <tr >
+            <td style="padding: 0 5px; width: 150px;border:1px solid black;">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">В работе</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; ">02.07.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; width:80px;">2</td>
+            <td style="padding: 0 5px;border:1px solid black;"> 
+              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a></mj-text><br>
+            </td>            
+          </tr>
+        </mj-table>
+
+        <mj-text > Нарушение сроков контрольных точек:</mj-text>
+       
+        <mj-table>
+          <tr>
+            <th style="padding: 0 5px;border:1px solid black;">Наименование контрольной точки</th>
+            <th style="padding: 0 5px;border:1px solid black;">Окончание</th>
+            <th style="padding: 0 5px;border:1px solid black;">Просрочено, д.</th>
+         
+          </tr>
+          <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+              Получение заявки от Заказчика
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">10.02.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;color:red;width:80px;">134</td>
+                 
+          </tr>      
+           <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+             Завершение экспертизы
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">17.06.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; color:red;width:80px;">234</td>
+                 
+          </tr>  
+           <tr>
+            <td style="padding: 0 5px;border:1px solid black;">
+             Получение РУ
+              </td>           
+            <td style="padding: 0 5px;border:1px solid black;text-align:center;">06.09.2018</td>
+            <td style="padding: 0 5px;border:1px solid black;text-align:center; color:red;width:80px;">3</td>
+                 
+          </tr>      
+        </mj-table>
+      <!-- Проблемы -->
+        <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+        <mj-text > Просим обратить внимание на то, что в <a href="http://10.72.100.86:8800/" target="_blank" style="color: #0088D6">
+            Системе контроля исполнения проектов
+            </a>в ходе реализации ряда проектов наблюдаются следующие проблемы:</mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+
+              <!-- Проблемы список-->
+         <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>   
+
+        <mj-table>
+          <tr style="border:1px solid black;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;border:1px solid black; width: 120px; text-align:center">Актуальная информация</th>
+            <th style="padding: 0 5px;border:1px solid black;  width: 120px; text-align:center" >Дата внесения информации</th>
+          </tr>
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+               <a href="http://10.72.100.86:8800/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Разработка не по графику
+                </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;width: 120px; text-align:center">
+                 10.02.2017         
+            </td>         
+          </tr>          
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">
+              Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top; width: 120px; text-align:center">
+                  10.02.2017    
+            </td>         
+          </tr> 
+           
+        </mj-table>    
+
+         <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>   
+
+        <mj-table>
+          <tr style="border:1px solid black;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;border:1px solid black; width: 120px; text-align:center">Актуальная информация</th>
+            <th style="padding: 0 5px;border:1px solid black;  width: 120px; text-align:center" >Дата внесения информации</th>
+          </tr>
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+               <a href="http://10.72.100.86:8800/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Разработка не по графику
+                </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;width: 120px; text-align:center">
+                 10.02.2017         
+            </td>         
+          </tr>          
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">
+              Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top; width: 120px; text-align:center">
+                  10.02.2017    
+            </td>         
+          </tr> 
+           
+        </mj-table>    
+        
+
+
+
+
+
+
+
+
+
+
+
+        <mj-text>С уважением,<br>
+          Система контроля исполнения проектов АО «Фармстандарт»
+        </mj-text> 
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

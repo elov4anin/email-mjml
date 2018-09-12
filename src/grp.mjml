@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+      <mj-attributes>
+        <mj-text color="#0563c1" font-size="11px" />
+        <mj-class name="th" color="blue" />
+        <mj-class name="big" font-size="14px" />
+        <mj-all font-family="Calibri, Arial, Helvetica, sans-serif;" font-size='11px' color="#0563c1"  />
+      </mj-attributes>
+    </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text  >Уважаемый Иванов Иван И.!</mj-text>
+
+          <!-- 1 начало -->
+        <mj-text>
+        Просим обратить внимание на то, что при импорте данных ГРП 
+        в <a href="http://10.72.100.86:8800/" target="_blank" style="color: #0088D6">
+            Систему контроля исполнения проектов
+            </a>ряд ресурсов не был найден в базе данных сотрудников. 
+         
+        </mj-text>
+        <mj-text>Ниже приведен детальный отчет</mj-text>
+        
+        <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+        <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>    
+         <mj-text  mj-class='big' >Файл ГРП:  <a href="\\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp" target="_blank" style="color: #0088D6">
+                \\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp
+              </a>
+          </a>
+        </mj-text> 
+
+        <mj-table>
+          <tr style="border:1px solid black;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;border:1px solid black; width: 120px; ">Задача</th>
+            <th style="padding: 0 5px;border:1px solid black">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+               <a href="http://10.72.100.86:8800/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Получение заявки от Заказчика
+                </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;">
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Вафина Елена Н  </a>           
+            </td>         
+          </tr>          
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;">
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Вафина Елена Н  </a>           
+            </td>         
+          </tr> 
+           
+        </mj-table>   
+
+        <!--- 2 -->
+
+         <mj-divider border-width="1px" border-style="solid" border-color="#a0a0a0" />
+        <mj-text  mj-class='big' >Проект:  <a href="http://10.72.100.86:8800/objects/task?taskId=892803" target="_blank" style="color: #0088D6">
+          Азитромицин таблетки диспергируемые, 500 мг №3, 1000 мг №1
+          </a>
+        </mj-text>
+        <mj-text  mj-class='big' >Менеджер проекта: <a href="http://10.72.100.86:8800/profile?profileId=60307" target="_blank" style="color: #0088D6">Королёв Юрий А. </a>
+          </a>
+        </mj-text>    
+         <mj-text  mj-class='big' >Файл ГРП:  <a href="\\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp" target="_blank" style="color: #0088D6">
+                \\mskstore1.msk.phstd\Сетевая_папка_1\Файл_1.mpp
+              </a>
+          </a>
+        </mj-text> 
+        
+        <mj-table>
+          <tr style="border:1px solid black;text-align:left;padding:15px 0;">
+            <th style="padding: 0 5px;border:1px solid black; width: 120px; ">Задача</th>
+            <th style="padding: 0 5px;border:1px solid black">Исполнители</th>
+          </tr>
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+               <a href="http://10.72.100.86:8800/objects/task?taskId=892802" target="_blank" style="color: #0088D6">
+                Получение заявки от Заказчика
+                </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;">
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Вафина Елена Н  </a>           
+            </td>         
+          </tr>          
+          <tr style="border:1px solid black">          
+            <td style="padding: 0 5px;  vertical-align:top; border:1px solid black">
+              <a href="http://10.72.100.86:8800/objects/task?taskId=907149" target="_blank" style="color: #0088D6">Аналитическая экспертиза (НД на препарат сравнения, Реактивы, колонки )
+              </a>
+            </td>       
+           
+            <td style="padding: 0 5px; width: 90px;vertical-align:top;">
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Вафина Елена Н  </a>           
+            </td>         
+          </tr> 
+           
+        </mj-table>      
+
+        <mj-text>С уважением,<br>
+          Система контроля исполнения проектов АО «Фармстандарт»
+        </mj-text>     
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
