@@ -5,6 +5,7 @@
         <mj-class name="th" color="blue" />
         <mj-class name="big" font-size="14px" />
         <mj-all font-family="Calibri, Arial, Helvetica, sans-serif;" font-size='11px' color="#0563c1"  />
+        <mj-table font-size="11px" />
       </mj-attributes>
     </mj-head>
   <mj-body>

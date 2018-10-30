@@ -5,6 +5,7 @@
         <mj-class name="th" padding="5px"/>
         <mj-class name="big" font-size="14px" />
         <mj-all font-family="Calibri, Arial, Helvetica, sans-serif;" font-size='11px'  color="#0563c1" />
+        <mj-table font-size="11px" />
       </mj-attributes>
     </mj-head>
   <mj-body>
@@ -43,9 +44,9 @@
             <td style="padding: 0 5px;border:1px solid black;text-align:center; ">10.02.2017</td>
             <td style="padding: 0 5px; border:1px solid black;color: red;text-align:center;width:80px; ">500</td>
             <td style="padding: 0 5px;border:1px solid black;">
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">    Вафина Елена Н </a></mj-text><br>
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Вафина Елена Н </a><br>
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Иванов И.И. </a><br>
+             <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Иванов И.И. </a><br>
             </td>            
           </tr>
            <tr >
@@ -57,7 +58,7 @@
             <td style="padding: 0 5px;border:1px solid black;text-align:center; ">02.07.2018</td>
             <td style="padding: 0 5px;border:1px solid black;text-align:center; width:80px;">2</td>
             <td style="padding: 0 5px;border:1px solid black;"> 
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a></mj-text><br>
+              <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a><br>
             </td>            
           </tr>
         </mj-table>
@@ -125,9 +126,9 @@
             <td style="padding: 0 5px;border:1px solid black;text-align:center; ">10.02.2017</td>
             <td style="padding: 0 5px; border:1px solid black;color: red;text-align:center;width:80px; ">500</td>
             <td style="padding: 0 5px;border:1px solid black;">
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">    Вафина Елена Н </a></mj-text><br>
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">     Иванов И.И. </a></mj-text><br>
+              <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Вафина Елена Н </a><br>
+              <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Иванов И.И. </a><br>
+              <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Иванов И.И. </a><br>
             </td>            
           </tr>
            <tr >
@@ -139,7 +140,7 @@
             <td style="padding: 0 5px;border:1px solid black;text-align:center; ">02.07.2018</td>
             <td style="padding: 0 5px;border:1px solid black;text-align:center; width:80px;">2</td>
             <td style="padding: 0 5px;border:1px solid black;"> 
-              <mj-text><a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a></mj-text><br>
+              <a href="http://10.72.100.86:8800/profile?profileId=60198" target="_blank" style="color: #0088D6">Веселова Нина И. </a><br>
             </td>            
           </tr>
         </mj-table>

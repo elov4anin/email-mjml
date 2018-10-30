@@ -1,4 +1,14 @@
 <mjml>
+ <mj-head>
+      <mj-attributes>
+        <mj-text color="#0563c1" font-size="11px" />
+        <mj-class name="th" padding="5px"/>
+        <mj-class name="big" font-size="14px" />
+        <mj-all font-family="Calibri, Arial, Helvetica, sans-serif;" font-size='11px'  color="#0563c1" />
+        <mj-table font-size="11px" />
+      </mj-attributes>
+    </mj-head>
+
   <mj-body>
     <mj-section>
       <mj-column>
